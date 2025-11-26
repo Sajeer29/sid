@@ -55,7 +55,7 @@
     <h1>Happy Birthday, Aswathi! 🎂💛</h1>
     <p>Click the cake to cut it and reveal your surprise 🎉</p>
 
-    <img id="cake" src="https://i.imgur.com/ilP4JbT.png" alt="Birthday Cake" />
+    <img id="cake" src="cake.jpg" alt="Birthday Cake" />
 
     <div id="message">May your year be filled with happiness, love and success 💛🎉</div>
 
@@ -66,7 +66,7 @@
 
         cake.addEventListener('click', () => {
             if (!cut) {
-                cake.src = "https://i.imgur.com/rfO7s7X.png"; // Cut cake image
+                cake.src = "cut.jpg"; // Cut cake image
                 message.style.display = 'block';
                 cut = true;
             }
@@ -74,4 +74,5 @@
     </script>
 </body>
 </html>
+
 
